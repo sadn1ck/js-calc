@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "dig";
+    src: url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+}
+html{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: black;
+}
+*:focus {
+    outline: none;
+}
+.main{
+    margin-top: 150px;
+    text-align: center;
+    align-content: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#textview{
+    font-family: "dig";
+    background-color: rgb(53, 50, 50);
+    color: white;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 320px;
+    height: 75px;
+    border-radius: 25px;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    vertical-align: middle;
+    border: 2px solid lightskyblue;
+}
+table{
+    padding-top: 10px;
+}
+.key{
+    font-family: "dig";
+    color: white;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border-radius: 75px;
+    font-size: 30px;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
+    border: 2px solid lightskyblue;
+    background-color: rgb(53, 50, 50);
+    transition: transform .3s;
+}
+.key:active{
+    box-shadow: 0 0 0;
+    transform: scale(1.3);
+}

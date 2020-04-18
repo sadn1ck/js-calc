@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <!-- <script src="app.js"></script> -->
+    <title>JS Calc</title>
+</head>
+<body>
+    <div class="main">
+        <input type="text" id="textview">
+        <table>
+            <tr>
+                <td><input class="key" type="button" value="C" onclick="empty()"></td>
+                <td><input class="key" type="button" value="←" onclick="backspace()"></td>
+                <td><input class="key" type="button" value="=" onclick="equal()"></td>
+                <td><input class="key" type="button" value="+" onclick="insert('+')"></td>
+            </tr>
+            <tr>
+                <td><input class="key" type="button" value="1" onclick="insert(1)"></td>
+                <td><input class="key" type="button" value="2" onclick="insert(2)"></td>
+                <td><input class="key" type="button" value="3" onclick="insert(3)"></td>
+                <td><input class="key" type="button" value="-" onclick="insert('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="key" type="button" value="4" onclick="insert(4)"></td>
+                <td><input class="key" type="button" value="5" onclick="insert(5)"></td>
+                <td><input class="key" type="button" value="6" onclick="insert(6)"></td>
+                <td><input class="key" type="button" value="*" onclick="insert('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="key" type="button" value="7" onclick="insert(7)"></td>
+                <td><input class="key" type="button" value="8" onclick="insert(8)"></td>
+                <td><input class="key" type="button" value="9" onclick="insert(9)"></td>
+                <td><input class="key" type="button" value="/" onclick="insert('/')"></td>
+            </tr>
+            <tr>
+                <td><input class="key" type="button" value="." onclick="insert('.')"></td>
+                <td><input class="key" type="button" value="0" onclick="insert(0)"></td>
+                <td colspan=2><input class="key" style="width:160px ;" type="button" value="=" onclick="equal()"></td>
+                
+            </tr>
+            
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
